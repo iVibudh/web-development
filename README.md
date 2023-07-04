@@ -1,10 +1,7 @@
 # web-development
 Web development bootcamp course on Udemy by Dr. Angela Yu
-
-
-[Udemy Link](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
-
-[Free Legacy Course Link](https://appbrewery.com/courses/legacy-complete-web-development-course/lectures/46570088)
+- [Udemy Link](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
+- [Free Legacy Course Link](https://appbrewery.com/courses/legacy-complete-web-development-course/lectures/46570088)
 
 <hr />
 
@@ -17,6 +14,11 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
 <hr />
 
 ## Notes on HTML
+##### Short cut for writing the **HTML boilerplate**
+    - Open a blank HTML file like "index.html"
+    - ! and enter on first selection
+    - boiler plate code is written for your page
+
 ##### Commonly Useful tags
 
 - `<html>`: Defines the root element of an HTML document.
@@ -54,10 +56,8 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
 - `<ul>`: Defines an unordered list.
    Syntax:
 
+##### Next 
 
-##### Short cut for writing the **HTML boilerplate**
-    - Open a blank HTML file like "index.html"
-    - ! and enter on first selection
-    - boiler plate code is written for your page
+<hr />
 
-#####
+## Notes on CSS
