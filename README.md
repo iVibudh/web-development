@@ -18,9 +18,6 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
     - ! and enter on first selection
     - boiler plate code is written for your page
 
-
-##### Next 
-
 ##### Commonly Useful tags
 
 - `<html>`: Defines the root element of an HTML document.
@@ -70,3 +67,10 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
 <hr />
 
 ## Notes on CSS
+
+- [A complete CSS Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- Colours:
+   - [Individual Color Codes](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color) 
+   - [Color pallet combination codes](https://colorhunt.co/palettes/popular)
+- Fonts:
+   - [Google Fonts](fonts.google.com)
