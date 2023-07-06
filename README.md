@@ -6,7 +6,6 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
 <hr />
 
 ## Useful Links
-# HTML (Sections 2, 3, 4)
 - [Mozilla Developer Resources](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
     - Has resources on HTML tags 
     - Also has resources on HTML, CSS, JS, etc.
@@ -18,6 +17,9 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
     - Open a blank HTML file like "index.html"
     - ! and enter on first selection
     - boiler plate code is written for your page
+
+
+##### Next 
 
 ##### Commonly Useful tags
 
@@ -56,7 +58,14 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
 - `<ul>`: Defines an unordered list.
    Syntax:
 
-##### Next 
+- `<div>`: Represents a division or section of the HTML document.
+   Syntax:
+   ```
+   <div>
+   Content
+   </div>
+   ```
+   Output: N/A (The content inside the `<div>` tag is treated as a separate block.)
 
 <hr />
 
