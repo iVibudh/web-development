@@ -74,3 +74,8 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
    - [Color pallet combination codes](https://colorhunt.co/palettes/popular)
 - Fonts:
    - [Google Fonts](fonts.google.com)
+- Chrome Developer Tools: Ctrl + Shift + I or
+   - Open chrome 
+   - : (Three dots) on the side 
+   - More Tools 
+   - Developer Tools
