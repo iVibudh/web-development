@@ -79,3 +79,22 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
    - : (Three dots) on the side 
    - More Tools 
    - Developer Tools
+- The CSS Box Model 
+   - margin:
+   - border: "border: 30px solid black"
+   - padding:
+   - create a box with with and contect with the following: "<div>...</div>
+   - "Pesticide for Chrome" is a chrome extension for development and understanding divs and alignment
+   - 6.4-Motivation-Meme-Project: is a good project to align things in the center for a website using percentages.
+- In Cascade styling in CSS (Cascading Style Sheets) - Ref. Section 7
+   - Cascading hierarchy is based on the following 4 things:
+      1. Position: Lower position styling overwrites the higher
+      2. Specificity: ID selector > attribute selector > class selector > element 
+      3. Type: 
+         - External styling 
+         - Internal styling 
+         - Inline styling (usually applied at an element level, it overwrites higher level of styling)
+      4. Importance
+         - "color: red;"
+         - "color: green !important;"
+
