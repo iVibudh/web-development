@@ -98,3 +98,40 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
          - "color: red;"
          - "color: green !important;"
 
+<hr />
+
+## Notes on JavaScript
+
+<hr />
+
+## Notes on Node.JS
+
+Install node.js 
+- install node.js from -> https://nodejs.org/en
+- Restart Computer 
+- Open terminal 
+- try running>> node -v
+- Read documentation here -> https://nodejs.org/docs/latest/api/
+
+
+Install Node.JS packages **NPM Library**
+- go to npm library -> https://www.npmjs.com/
+- explore sillyname package -> https://www.npmjs.com/package/sillyname
+- **Steps**
+   - Go to the respected folder <br>
+   cd "Path"
+   - Initialize npm <br>
+   npm init
+   - Create Lisence Json <br>
+   Fill out the Json values (you can keep all the values as default)
+   - install the package **sillyname** <br>
+   >>npm install sillyname <br>
+   OR  <br>
+   >>npm i sillyname other-names
+   - Note that package.json and package-lock.json are created
+
+
+
+<hr />
+
+## Notes on
