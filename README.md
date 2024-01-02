@@ -102,9 +102,17 @@ Web development bootcamp course on Udemy by Dr. Angela Yu
 
 ## Notes on JavaScript
 
+Java : Javascript :: car : carpet
+
 <hr />
 
-## Notes on Node.JS
+## Notes on Node.JS & Express (section 22 to 24)
+Node vs Express 
+- We need a Framework for backend. 
+- Most popular one is Node.js
+- However, Node.js is not a framework, it is a runtime environment. 
+- Hence it allows us to run javascript on the computer instead of browser
+- Express is a framework that allows us to create backend for our website
 
 Install node.js 
 - install node.js from -> https://nodejs.org/en
@@ -130,8 +138,66 @@ Install Node.JS packages **NPM Library**
    >>npm i sillyname other-names
    - Note that package.json and package-lock.json are created
 
+- **Short cut**
+   - Go to the path in terminal 
+   - npn init -y
+   - npm i sillyname 
+   - Update package.json with  "type" : "module",
+   
+CJS to ESM for node > v12
+- Now we use ECMAScript modules. This means that now we could use 
+import instead of require
+Ref -> https://github.com/iVibudh/web-development/blob/main/23-Node-JS/2.3%2BNPM/index.js
+
+- It also improves tree shaking.
+- Spets to activate ESM:
+   - add "type" : "module" in package.json
+   - use import, instead of require
+
 
 
 <hr />
 
-## Notes on
+## Notes on Express (Section 24)
+
+Check all port statues:
+- Windows <br>
+netstat -a <br>
+netstat -ano | findstr "LISTENING'
+- Mac/Linux <br>
+sudo lsof -i -P -n | grep LISTEN
+
+Http Vocab:
+- GET: Retrieves data from a specified resource without modifying it.
+- POST: Sends data to a server to create a new resource or process a data
+- PUT: Replaces all current representations of the target resource with the request payload.
+- PATCH: Partially modifies the target resource with specified changes.
+- DELETE: Removes the specified resource from the server.
+
+Tips for autostart:
+- nodemon autumatically restarts the server when it detects that there are any changes to the code
+- just use "nodemon" instead of "node", when you are starting the server
+- install nodemon globally <br>
+npm install -g nodemon
+
+
+
+**HTTP Response Status Codes**
+HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+1. Informational responses ( 108 - 199 )
+2. Successful responses ( 200 - 299)
+   - 200 OK
+   - 201 Create 
+3. Redirection messages ( 300 - 399 )
+4. Client error responses ( 400 - 499 )
+   - 404 Not Found
+5. Server error responses ( 500 - 599)
+The status codes listed below are defined by RFC 9110 2.
+Ref -> https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+
+**There are 4 types of MiddleWare**
+- Pre-processing (eg. body-parser)
+- Logging (eg. morgan)
+- Error handling
+- Authentication
